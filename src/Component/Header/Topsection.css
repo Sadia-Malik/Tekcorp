@@ -1,0 +1,186 @@
+.nav-bar {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: #2a3855;
+    padding: 1.008px;
+    margin-bottom: -3.76rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    position: sticky;
+    z-index: 1015;
+  }
+  .border-nav{
+    border: 1px solid #fff;
+    border-radius: 90px;
+  }
+  /* Hamburger icon  */
+  .navbar-toggler {
+    width: 30px;
+    height: 20px;
+    position: relative;
+    transition: 0.5s ease-in-out;
+  }
+  .navbar-toggler,
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: 0;
+  }
+  .navbar-toggler span {
+    margin: 0;
+    padding: 0;
+  }
+  .toggler-icon {
+    display: block;
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background: #dbe0e9;
+    border-radius: 1px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: 0.25s ease-in-out;
+  }
+  .middle-bar {
+    margin-top: 0px;
+  }
+  
+  /* When the navbar is clicked */
+  .navbar-toggler .top-bar {
+    margin-top: 0px;
+    transform: rotate(135deg);
+  }
+  .navbar-toggler .middle-bar {
+    opacity: 0;
+    filter: alpha(opacity=0);
+  }
+  .navbar-toggler .bottom-bar {
+    margin-top: 0px;
+    transform: rotate(-135deg);
+  }
+  
+  /* When the navbar is collapsed */
+  .navbar-toggler.collapsed .top-bar {
+    margin-top: -15px;
+    transform: rotate(0deg);
+  }
+  .navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+    filter: alpha(opacity=100);
+  }
+  .navbar-toggler.collapsed .bottom-bar {
+    margin-top: 15px;
+    transform: rotate(0deg);
+  }
+  /* hamburger ends here */
+  
+  .nav-btn {
+    height: 34px;
+    font-size: 12.003px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: 600;
+    padding: 6.4px 19.2px !important;
+  }
+  @media (max-width: 992px) {
+    /* FOR NAVBAR*/
+    #nav-content {
+      height: 282px;
+    }
+    /* .nav-pages {
+      padding: 6.4px 0px !important;
+    } */
+    .nav-list {
+      height: 212px;
+    }
+    /* .nav-btn {
+      width: 100%;
+      padding: 6.4px 19.2px;
+      margin: 16px 0px;
+    } */
+    .nav-bar {
+    
+     background-color: #262727;
+    }
+  
+    .border-nav{
+      border: none;
+      margin-top: 20px!important;
+    }
+  }
+  .nav-btn:hover {
+   
+    background-color: #1BDBBA
+  
+    ;
+    border: 1px solid #1BDBBA;
+    color: white;
+  }
+  .nav-pages {
+    color: #fff !important;
+    padding: 6.4px 19.2px !important;
+  }
+  .nav-pages:hover {
+    color: #1BDBBA !important;
+  }
+  
+  .header-sec-1{
+    width: 100%;
+   height: 100vh;
+    background-size: cover;
+    background-image: url('../images/Rectangle.jpg');
+    background-repeat: no-repeat;
+  }
+  
+  .text-1{
+    
+    font-weight: 400;
+    color: #1BDBBA;
+  }
+  .text-2{
+    font-weight: 600;
+    font-size: 70px;
+    color: #fff;
+  }
+  .text-3{
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .contact-now{
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+  }
+  .position-text{
+    margin-top: 35px;
+    position: absolute;
+    top: 90px!important;
+    transform: translateY(40%);
+  }
+
+ 
+
+  @media (max-width: 992px) {
+    .position-text{
+      margin-top: 30px;
+      position: absolute;
+      top: 90px!important;
+      transform: translateY(25%);
+    }
+    .header-sec-1{
+
+     height: 800px;
+     background-size:auto;
+      
+    }
+    .text-2{
+      font-weight: 600;
+      font-size: 50px;
+      color: #fff;
+    }
+
+  }
